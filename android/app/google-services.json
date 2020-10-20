@@ -1,0 +1,56 @@
+{
+  "project_info": {
+    "project_number": "295718302177",
+    "firebase_url": "https://relayx-128a6.firebaseio.com",
+    "project_id": "relayx-128a6",
+    "storage_bucket": "relayx-128a6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:295718302177:android:6528377fc85e3c70",
+        "android_client_info": {
+          "package_name": "com.RelayX"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "295718302177-n0jpjndlga4tjsoeasiv4mnpk6866iur.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.RelayX",
+            "certificate_hash": "21b8c2945aba97a7856843d8e57ff5ec65e10514"
+          }
+        },
+        {
+          "client_id": "295718302177-m6sud4qiu0o3fbv4iift32m6dsm0vo4k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArNRuBMtwx8sv_spY8Yu5RbVxELm7MEP8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "295718302177-m6sud4qiu0o3fbv4iift32m6dsm0vo4k.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "295718302177-gi3qclc1snm9sb5o69h372m2vsas9187.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.relayx.io",
+                "app_store_id": "1460572284"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

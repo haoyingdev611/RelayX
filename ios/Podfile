@@ -1,0 +1,56 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'relay_native' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+  
+  # Pods for relay_native
+  pod 'yoga', :path => '../node_modules/react-native/ReactCommon/yoga/yoga.podspec'
+  pod 'React', :path => '../node_modules/react-native', :subspecs => [
+    'RCTImage',
+  ]
+
+  # Pods for ReactPushNotifications - Add these lines
+  pod 'Firebase/Core'
+  pod 'Firebase/Messaging'
+
+  pod 'RNImageCropPicker', :path =>  '../node_modules/react-native-image-crop-picker'
+
+#  pod 'RNViewShot', :path => '../node_modules/react-native-view-shot'
+
+#  pod 'RNFS', :path => '../node_modules/react-native-fs'
+
+  pod 'rn-fetch-blob', :path => '../node_modules/rn-fetch-blob'
+
+  pod 'RNRangeSlider', :path => '../node_modules/rn-range-slider'
+
+  pod 'react-native-version-number', :path => '../node_modules/react-native-version-number'
+
+  pod 'RNI18n', :path => '../node_modules/react-native-i18n'
+
+
+
+  pod 'RNSentry', :path => '../node_modules/@sentry/react-native'
+
+  pod 'react-native-biometrics', :path => '../node_modules/react-native-biometrics'
+
+
+  target 'relay_nativeTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+end
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    if target.name == "React"
+      target.remove_from_project
+    end
+    
+    if target.name == "yoga"
+      target.remove_from_project
+    end
+  end
+end

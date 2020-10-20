@@ -1,0 +1,10 @@
+image: node:12.2.0
+
+pipelines:
+  default:
+    - step:
+        caches:
+          - node
+        script:
+          - npm install
+          - npm run check-types

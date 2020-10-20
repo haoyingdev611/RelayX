@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>295718302177-gi3qclc1snm9sb5o69h372m2vsas9187.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.295718302177-gi3qclc1snm9sb5o69h372m2vsas9187</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBFDn58BcnMHcuGrLKfVJEvkWkkn6eLFgk</string>
+	<key>GCM_SENDER_ID</key>
+	<string>295718302177</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.relayx.io</string>
+	<key>PROJECT_ID</key>
+	<string>relayx-128a6</string>
+	<key>STORAGE_BUCKET</key>
+	<string>relayx-128a6.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:295718302177:ios:ace3cf1257c81371</string>
+	<key>DATABASE_URL</key>
+	<string>https://relayx-128a6.firebaseio.com</string>
+</dict>
+</plist>
